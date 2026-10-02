@@ -1,0 +1,22 @@
+  @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+    body { font-family: 'Quicksand', sans-serif; background-color: #FDF2F8; }
+    .text-primary { color: #EC4899; }
+    .bg-primary { background-color: #EC4899; }
+    .bg-primary-light { background-color: #F472B6; }
+    .hover\:bg-primary-dark:hover { background-color: #DB2777; }
+    .overlay { background-color: rgba(0, 0, 0, 0.35); backdrop-filter: blur(3px); }
+    .cart-sidebar { transition: transform 0.3s ease-in-out; transform: translateX(100%); }
+    .cart-sidebar.open { transform: translateX(0); }
+    .modal { transition: opacity 0.25s ease, visibility 0.25s; opacity: 0; visibility: hidden; }
+    .modal.show { opacity: 1; visibility: visible; }
+    .cart-badge { top: -6px; right: -8px; }
+    .product-card { transition: transform 0.2s, box-shadow 0.2s; }
+    .product-card:hover { transform: translateY(-4px); box-shadow: 0 20px 25px -5px rgba(236, 72, 153, 0.15), 0 8px 10px -6px rgba(236, 72, 153, 0.1); }
+    input[type="radio"] { accent-color: #EC4899; width: 18px; height: 18px; }
+    .auth-tab { transition: all 0.2s; }
+    .auth-tab.active { border-bottom: 3px solid #EC4899; color: #EC4899; font-weight: 600; }
+    .status-badge { padding: 4px 12px; border-radius: 9999px; font-size: 12px; font-weight: 600; }
+    .status-pending { background-color: #FEF3C7; color: #D97706; }
+    .status-confirmed { background-color: #DBEAFE; color: #2563EB; }
+    .status-shipping { background-color: #E0E7FF; color: #4F46E5; }
+    .status-delivered { background-color: #D1FAE5; color: #059669; }
